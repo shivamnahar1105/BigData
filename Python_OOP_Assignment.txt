@@ -1,1 +1,9 @@
-
+In Python, object-oriented Programming (OOPs) is a programming paradigm that uses objects and classes in programming. It aims to implement real-world entities like inheritance, polymorphisms, encapsulation, etc. in the programming.
+An inheritance search looks for an attribute first in the instance object, then in the class the instance was created from.
+Class object is a real copy of the class(i.e blueprint). Instance object is virtual copy of the object.
+The self keyword is used to represent an instance object of the given class. If there was no self argument, the same class couldn't hold the information for different objects.
+__init__ method lets you intialise the object attributes.
+To create instances of a class, you call the class using class name and pass in whatever arguments its __init__ method accepts.
+In python a class is created by the keyword class
+The class from which a class inherits is called the parent or superclass. 
+Modules are collections of methods and constants. They cannot generate instances. Classes may generate instances (objects), and have per-instance state (instance variables).
