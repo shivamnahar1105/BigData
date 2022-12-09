@@ -7,3 +7,7 @@ To create instances of a class, you call the class using class name and pass in 
 In python a class is created by the keyword class
 The class from which a class inherits is called the parent or superclass. 
 Modules are collections of methods and constants. They cannot generate instances. Classes may generate instances (objects), and have per-instance state (instance variables).
+To create instances of a class, you call the class using class name and pass in whatever arguments its __init__ method accepts.
+Class attributes are the variables defined directly in the class that are shared by all objects of the class.
+Instance attributes are attributes or properties attached to an instance of a class. Instance attributes are defined in the constructor.
+
