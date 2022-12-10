@@ -1,0 +1,51 @@
+# Q1. df = pd.read_csv('link or file path from local')
+
+# Q2. df['column_name'].dtypes
+
+# Q3. df.loc[df['column_name'] == condition]
+
+# Q4. df.rename(columns = {'old_col_name': 'new_col_name'}, inplace = True )
+
+# Q5. df.drop('column_name', axis = 1)
+
+# Q6. df['column_name'].unique()
+
+# Q7. df.isnull().sum()
+
+# Q8. df.fillna(df.mean(numeric_only=True).round(1), inplace=True)
+
+# Q9. pd.concat(df1, df2)
+
+# Q10. df1.merge(df2[['col1', 'col2']])
+
+# Q11. new_df = df.groupby('col1').sum('col2')
+
+# Q12. df.pivot(*, index=None, columns=None, values=None)
+
+# Q13. df.astype(datatpe in which we want to convert)
+
+# Q14. df.sort_values('column_name')
+
+# Q15. newdf = df.copy()
+
+# Q16.  df.loc 
+
+# Q17. df2 = df.mean(axis=0)
+
+# Q18. using the function . std() 
+
+# Q19. data['column2'].corr(data['column3'])
+
+# Q20. df['column_name']
+
+# Q21. df.loc
+
+# Q22. df.sort_values()
+
+# Q23. df.apply(lambda row: categorise(row), axis=1)
+
+# Q24. df. drop_duplicates()
+
+# Q25. loc gets rows (and/or columns) with particular labels. 
+        iloc gets rows (and/or columns) at integer locations.
+
