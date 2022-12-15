@@ -1,25 +1,73 @@
-In Python, object-oriented Programming (OOPs) is a programming paradigm that uses objects and classes in programming. It aims to implement real-world entities like inheritance, polymorphisms, encapsulation, etc. in the programming.
-An inheritance search looks for an attribute first in the instance object, then in the class the instance was created from.
-Class object is a real copy of the class(i.e blueprint). Instance object is virtual copy of the object.
-The self keyword is used to represent an instance object of the given class. If there was no self argument, the same class couldn't hold the information for different objects.
-__init__ method lets you intialise the object attributes.
-To create instances of a class, you call the class using class name and pass in whatever arguments its __init__ method accepts.
-In python a class is created by the keyword class
-The class from which a class inherits is called the parent or superclass. 
-Modules are collections of methods and constants. They cannot generate instances. Classes may generate instances (objects), and have per-instance state (instance variables).
-To create instances of a class, you call the class using class name and pass in whatever arguments its __init__ method accepts.
-Class attributes are the variables defined directly in the class that are shared by all objects of the class.
-Instance attributes are attributes or properties attached to an instance of a class. Instance attributes are defined in the constructor.
-he self parameter is a reference to the current instance of the class, and is used to access variables that belongs to the class.
-Python class handle operator overloading by using special functions that starts and ends with __.
-The operator overloading in Python means provide extended meaning beyond their predefined operational meaning. We can consider using operartion overloading when we want to use the same operator for different functionality. Ex '+' operator can be used to add numbers, string or merge list.
-'+' Operator is the most popular exampole of operation overloading.
-Inheritance and Polymorphism.
-a. Raised when the specified key is not found in the dictionary. b. Raised when an identifier is not found in the local or global namespace. c. Raised when trying to access a local variable in a function or method but no value has been assigned to it.
-The program terminates abruptly and the code past the line that caused the exception will not get executed.
-Use try, catch, except.
-Try – This method catches the exceptions raised by the program. Raise – Triggers an exception manually using custom exceptions.
-Finally will be executed regardless of the exception block.
-The try statement allows you to define a block of code to be tested for errors while it is being executed.
-Try/Except. & Try/Except/Except
-The RAISE statement stops normal execution of a ubprogram and transfers control to an exception handler.
+# Q1. In Python, object-oriented Programming (OOPs) is a programming paradigm that uses 
+objects and classes in programming. It aims to implement real-world entities like inheritance, 
+polymorphisms, encapsulation, etc. in the programming.
+
+# Q2. An inheritance search looks for an attribute first in the instance object, 
+then in the class the instance was created from.
+
+
+# Q3. Class object is a real copy of the class(i.e blueprint). Instance object is virtual copy of 
+      the object.
+
+
+# Q4. The self keyword is used to represent an instance object of the given class. 
+    If there was no self argument, the same class couldn't hold the information for different objects.
+
+# Q5. __init__ method lets you intialise the object attributes.
+
+# Q6. To create instances of a class, you call the class using class name and pass in 
+      whatever arguments its __init__ method accepts.
+
+# Q7. In python a class is created by the keyword class.
+
+# Q8. The class from which a class inherits is called the parent or superclass. 
+
+# Q9. Modules are collections of methods and constants. They cannot generate instances. 
+      Classes may generate instances (objects), and have per-instance state (instance variables).
+
+# Q10. To create instances of a class, you call the class using class name and pass 
+       in whatever arguments its __init__ method accepts.
+
+# Q11. Class attributes are the variables defined directly in the class
+       that are shared by all objects of the class.
+
+# Q12. Instance attributes are attributes or properties attached to an instance of a class. 
+       Instance attributes are defined in the constructor.
+
+# Q13. The self parameter is a reference to the current instance of the class, and
+       is used to access variables that belongs to the class.
+
+# Q14. Python class handle operator overloading by using special functions that starts and ends with __.
+
+# Q15. The operator overloading in Python means provide extended meaning beyond 
+       their predefined operational meaning. We can consider using operartion overloading 
+       when we want to use the same operator for different functionality. 
+       Ex '+' operator can be used to add numbers, string or merge list.
+
+# Q16. '+' Operator is the most popular exampole of operation overloading.
+
+# Q17. Inheritance and Polymorphism.
+
+# Q18. a. Raised when the specified key is not found in the dictionary. 
+       b. Raised when an identifier is not found in the local or global namespace.
+       c. Raised when trying to access a local variable in a function or method but 
+          no value has been assigned to it.
+
+
+# Q19. The program terminates abruptly and the code past the line that caused the exception 
+        will not get executed.
+
+# Q20. Use try, catch, except.
+
+# Q21. Try – This method catches the exceptions raised by the program. 
+       Raise – Triggers an exception manually using custom exceptions.
+
+# Q22. Finally will be executed regardless of the exception block.
+
+# Q23. The try statement allows you to define a block of code to be tested for errors 
+       while it is being executed.
+
+# Q24. Try/Except. & Try/Except/Except
+
+# Q25. The RAISE statement stops normal execution of a ubprogram and 
+       transfers control to an exception handler.
