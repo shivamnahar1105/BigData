@@ -71,3 +71,38 @@ then in the class the instance was created from.
 
 # Q25. The RAISE statement stops normal execution of a ubprogram and 
        transfers control to an exception handler.
+
+# Q26. Assertions are simply boolean expressions that check if the conditions return true or not. 
+       If it is true, the program does nothing and moves to the next line of code. 
+       However, if it's false, the program stops and throws an error. It is also a debugging tool 
+       as it halts the program as soon as an error occurs and displays it. 
+
+# Q27. The with statement is a replacement for commonly used try/finally error-handling statements.
+
+# Q28. *args specifies the number of non-keyworded arguments that can be passed and
+       the operations that can be performed on the function in Python. 
+       **kwargs is a variable number of keyworded arguments that can be passed to a function
+        that can perform dictionary operations.
+
+# Q29. There are two main ways to pass optional parameters in python 
+
+            Without using keyword arguments.
+            By using keyword arguments.
+
+# Q30. A lambda function is an anonymous function (i.e., defined without a name) that can take
+       any number of arguments but, unlike normal functions, evaluates and returns only one expression.
+
+# Q31. Inheritance relationship defines the classes that inherit from other classes as derived, subclass, or sub-type classes. 
+       Base class remains to be the source from which a subclass inherits. 
+       For example, you have a Base class of “Animal,” and a “Lion” is a Derived class. 
+       The inheritance will be Lion is an Animal.            
+
+# Q33. The isinstance() method checks whether an object is an instance of a class whereas issubclass() method 
+       asks whether one class is a subclass of another class (or other classes).           
+
+# Q34. The nonlocal keyword is used to work with variables inside nested functions, 
+       where the variable should not belong to the inner function. Use the keyword nonlocal
+       to declare that the variable is not local.          
+
+# Q35. In Python, the global keyword allows us to modify the variable outside of the current scope. 
+       It is used to create a global variable and make changes to the variable in a local context.       
